@@ -4,7 +4,7 @@ export const LANGS = [
   ['ko', '한국어'], ['en', 'English'], ['ja', '日本語'], ['zh', '简体中文'], ['vi', 'Tiếng Việt'],
   ['es', 'Español'], ['la', 'Latina'], ['ar', 'العربية'], ['hi', 'हिन्दी'], ['id', 'Bahasa Indonesia'],
 ];
-const V = 5; // 번역 파일을 고치면 올린다(GitHub Pages 캐시)
+const V = 6; // 번역 파일을 고치면 올린다(GitHub Pages 캐시)
 // 공개 저장소 isaacweb007/tonybox 의 Releases '항상 최신' 설치 파일(이름은 버전 없이 TonyFileBox-Setup.pkg)
 export const DOWNLOAD_URL = 'https://github.com/isaacweb007/tonybox/releases/latest/download/TonyFileBox-Setup.pkg';
 export const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
