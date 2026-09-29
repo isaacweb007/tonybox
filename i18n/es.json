@@ -180,6 +180,7 @@
  "g_m1": "El número junto al icono de la caja en la barra de menús es la puntuación de salud de tu Mac. Haz clic en él para ver sugerencias de limpieza, el espacio libre en disco, la Papelera y tu último escaneo.",
  "g_m2": "En <b>Escaneo automático</b>, elige Cada día, Cada semana o Desactivado (por omisión, Cada semana). Si tras un escaneo automático se acumulan más de 5 GB por limpiar, recibirás una notificación.",
  "g_m3": "Activa <b>Abrir al iniciar sesión</b> y la app de la barra de menús y el motor se iniciarán discretamente en segundo plano, sin ventana, cada vez que enciendas el Mac.",
+ "g_m4": "Con las <b>Alertas de riesgo</b> activadas, recibirás una notificación cuando un estado en rojo (sobrecarga de memoria o CPU, sobrecalentamiento o poco espacio en disco) se mantenga, y otra cuando se resuelva. Haz clic en la notificación para abrir la pantalla Sistema.",
  "g_l1": "Haz clic en el botón del globo terráqueo de arriba y elige un idioma. Las pantallas, las tarjetas de sugerencias, las notificaciones y la barra de menús cambian a ese idioma.",
  "g_l2": "También puedes leer esta guía en tu idioma — elige uno abajo.",
  "g_r1": "Haz clic en el icono de la caja en la barra de menús → si <b>Abrir al iniciar sesión</b> está activado, desactívalo y haz clic en <b>[Quitar de la barra de menús]</b>.",

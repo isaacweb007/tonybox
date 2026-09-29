@@ -180,6 +180,7 @@
  "g_m1": "Angka di sebelah ikon kotak di bar menu adalah skor kesehatan Mac Anda. Klik untuk melihat saran pembersihan, ruang disk kosong, Tong Sampah, dan pindaian terakhir.",
  "g_m2": "Di <b>Pindai Otomatis</b>, pilih Harian, Mingguan, atau Mati (standarnya Mingguan). Jika setelah pemindaian otomatis terkumpul lebih dari 5 GB item yang perlu dibersihkan, Anda akan menerima pemberitahuan.",
  "g_m3": "Nyalakan <b>Buka saat login</b>, maka app bar menu dan mesinnya akan berjalan diam-diam di latar belakang, tanpa jendela, setiap kali Mac Anda dinyalakan.",
+ "g_m4": "Dengan <b>Peringatan Risiko</b> aktif, Anda akan diberi tahu saat status merah seperti kelebihan beban memori atau CPU, panas berlebih, atau ruang disk yang menipis terus berlanjut, dan diberi tahu lagi saat sudah teratasi. Klik pemberitahuan untuk membuka layar Sistem.",
  "g_l1": "Klik tombol bola dunia di bagian atas dan pilih bahasa. Layar, kartu saran, pemberitahuan, dan bar menu akan beralih ke bahasa itu.",
  "g_l2": "Panduan ini juga bisa dibaca dalam bahasa Anda — pilih di bawah.",
  "g_r1": "Klik ikon kotak di bar menu → jika <b>Buka saat login</b> menyala, matikan, lalu klik <b>[Hapus dari Bar Menu]</b>.",

@@ -180,6 +180,7 @@
  "g_m1": "Con số bên cạnh biểu tượng hộp trên thanh menu là điểm sức khỏe Mac của bạn. Bấm vào đó để xem gợi ý dọn dẹp, dung lượng trống, Thùng rác và lần quét gần nhất.",
  "g_m2": "Trong <b>Tự động quét</b>, chọn Hằng ngày, Hằng tuần hoặc Tắt (mặc định là Hằng tuần). Nếu sau một lần quét tự động có hơn 5 GB cần dọn, bạn sẽ nhận được thông báo.",
  "g_m3": "Bật <b>Mở khi đăng nhập</b> để ứng dụng trên thanh menu và dịch vụ nền tự khởi động lặng lẽ ở chế độ nền, không mở cửa sổ, mỗi khi bạn bật máy Mac.",
+ "g_m4": "Khi bật <b>Cảnh báo rủi ro</b>, bạn sẽ nhận thông báo khi trạng thái đỏ như quá tải bộ nhớ hoặc CPU, quá nhiệt hay thiếu dung lượng ổ đĩa kéo dài, và được báo lại khi đã ổn. Bấm vào thông báo để mở màn hình Hệ thống.",
  "g_l1": "Bấm nút quả địa cầu ở phía trên và chọn ngôn ngữ. Các màn hình, thẻ gợi ý, thông báo và thanh menu đều sẽ chuyển sang ngôn ngữ đó.",
  "g_l2": "Bạn cũng có thể đọc hướng dẫn này bằng ngôn ngữ của mình — hãy chọn bên dưới.",
  "g_r1": "Bấm biểu tượng hộp trên thanh menu → nếu <b>Mở khi đăng nhập</b> đang bật thì tắt đi, rồi bấm <b>[Gỡ khỏi thanh menu]</b>.",
