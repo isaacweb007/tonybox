@@ -139,6 +139,8 @@
  "a4": "App ini tidak bisa diinstal di iPhone atau iPad. Kami sedang menyiapkan fitur untuk membuka dasbor Mac Anda dari iPhone di jaringan Wi-Fi yang sama.",
  "q5": "Mengapa perlu “Tetap Buka” saat pertama kali?",
  "a5": "Ini app independen yang belum dinotarisasi Apple, jadi macOS meminta Anda mengonfirmasi sekali. App ini tidak pernah mengirim file Anda ke mana pun.",
+ "q6": "Bagaimana cara mendapatkan pembaruan?",
+ "a6": "Saat versi baru keluar, bar menu dan dasbor akan memberi tahu Anda. Sekali sehari aplikasi hanya memeriksa nomor versi di situs ini dan tidak pernah mengirim informasi file Anda. Klik pemberitahuan untuk membuka halaman unduhan.",
  "gh": "GitHub",
  "made": "Dibuat di Korea untuk pengguna Mac.",
  "vb_play": "Putar",
@@ -203,6 +205,7 @@
  "g_m2": "Di <b>Pindai Otomatis</b>, pilih Harian, Mingguan, atau Mati (standarnya Mingguan). Jika setelah pemindaian otomatis terkumpul lebih dari 5 GB item yang perlu dibersihkan, Anda akan menerima pemberitahuan.",
  "g_m3": "Nyalakan <b>Buka saat login</b>, maka app bar menu dan mesinnya akan berjalan diam-diam di latar belakang, tanpa jendela, setiap kali Mac Anda dinyalakan.",
  "g_m4": "Dengan <b>Peringatan Risiko</b> aktif, Anda akan diberi tahu saat status merah seperti kelebihan beban memori atau CPU, panas berlebih, atau ruang disk yang menipis terus berlanjut, dan diberi tahu lagi saat sudah teratasi. Klik pemberitahuan untuk membuka layar Sistem.",
+ "g_m5": "Saat versi baru keluar, bar menu dan dasbor akan memberi tahu Anda. Aplikasi hanya memeriksa nomor versi sekali sehari dan tidak pernah mengirim informasi file Anda. Matikan lewat <b>Periksa Pembaruan</b> di bar menu.",
  "g_l1": "Klik tombol bola dunia di bagian atas dan pilih bahasa. Layar, kartu saran, pemberitahuan, dan bar menu akan beralih ke bahasa itu.",
  "g_l2": "Panduan ini juga bisa dibaca dalam bahasa Anda — pilih di bawah.",
  "g_r1": "Klik ikon kotak di bar menu → jika <b>Buka saat login</b> menyala, matikan, lalu klik <b>[Hapus dari Bar Menu]</b>.",
@@ -211,5 +214,11 @@
  "g_h1": "Jika jendela tidak terbuka atau layarnya kosong, coba buka lagi Tony FileBox dari Dock.",
  "g_h2": "Jika angkanya tampak tidak tepat, klik tombol ⟳ di kiri bawah untuk memindai ulang.",
  "g_h3": "Pratinjau video dan pencarian video mirip memerlukan ffmpeg. Jika Anda memakai Homebrew, jalankan <b>brew install ffmpeg</b> di Terminal.",
- "g_h4": "Masih belum berhasil? Kirimkan dua file log di bawah ini."
+ "g_h4": "Masih belum berhasil? Kirimkan dua file log di bawah ini.",
+ "up_link": "Yang baru",
+ "up_doc": "Tony FileBox — Yang baru",
+ "up_h": "Yang baru",
+ "up_p": "Saat versi baru keluar, aplikasi memberi tahu di bar menu dan dasbor. Lihat perubahan di setiap versi di sini.",
+ "up_latest": "Terbaru",
+ "up_older": "Penginstal versi sebelumnya ada di GitHub Releases."
 }

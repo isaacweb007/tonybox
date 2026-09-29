@@ -139,6 +139,8 @@
  "a4": "In iPhone aut iPad installari non potest. Laboramus ut tabulam principalem Mac tui ex iPhone in eodem Wi-Fi aperire possis.",
  "q5": "Cur primo usu “Nihilominus aperire” requiritur?",
  "a5": "Applicatio independens est, nondum ab Apple certificata, itaque macOS te semel confirmare rogat. Applicatio fasciculos tuos numquam usquam mittit.",
+ "q6": "Quomodo renovationes accipio?",
+ "a6": "Cum nova versio prodit, vectis indicis et tabula monent. Semel in die applicatio solum numerum versionis in hoc situ inspicit neque notitias fasciculorum tuorum mittit. Monitum preme ut pagina deponendi aperiatur.",
  "gh": "GitHub",
  "made": "In Corea facta pro iis qui Mac utuntur.",
  "vb_play": "Incipe",
@@ -203,6 +205,7 @@
  "g_m2": "Sub <b>Perlustratio automatica</b> elige Cotidie, Hebdomadatim aut Exstinctum (praefinitum: Hebdomadatim). Si post perlustrationem automaticam plus quam 5 GB rerum purgandarum cumulantur, nuntium accipies.",
  "g_m3": "Accende <b>Initio sessionis aperire</b>, et applicatio vectis indicis ac machina, quotiens Mac incipis, tacite in recessu sine fenestra incipiunt.",
  "g_m4": "Si <b>Monita periculi</b> accensa sunt, nuntium accipies cum status ruber (onus nimium memoriae vel CPU, nimius calor aut spatium disci exiguum) manet, et iterum cum sedatur. Nuntium preme ut pagina Systematis aperiatur.",
+ "g_m5": "Cum nova versio prodit, vectis indicis et tabula monent. Semel in die solum numerum versionis inspicit neque umquam notitias fasciculorum tuorum mittit. Per <b>Renovationes quaerere</b> in vecte indicis exstingui potest.",
  "g_l1": "Bullam globi summo preme et linguam elige. Paginae, chartae consiliorum, nuntii et vectis indicis omnes in eam mutantur.",
  "g_l2": "Hoc enchiridion quoque tua lingua legere potes — infra elige.",
  "g_r1": "Iconem cistae in vecte indicis preme → si <b>Initio sessionis aperire</b> accensum est, exstingue, deinde <b>[E vecte indicis removere]</b> preme.",
@@ -211,5 +214,11 @@
  "g_h1": "Si fenestra non aperitur aut pagina vacua est, Tony FileBox ex Dock iterum aperire conare.",
  "g_h2": "Si numeri falsi videntur, bullam ⟳ in angulo sinistro imo preme ut rursus perlustres.",
  "g_h3": "Praevisiones pellicularum et inventio pellicularum similium ffmpeg requirunt. Si Homebrew uteris, <b>brew install ffmpeg</b> in Terminal exsequere.",
- "g_h4": "Adhuc non operatur? Duos fasciculos commentarii infra mitte."
+ "g_h4": "Adhuc non operatur? Duos fasciculos commentarii infra mitte.",
+ "up_link": "Nova",
+ "up_doc": "Tony FileBox — Nova",
+ "up_h": "Nova",
+ "up_p": "Cum nova versio prodit, applicatio in vecte indicis et in tabula monet. Hic videre potes quid in singulis versionibus mutatum sit.",
+ "up_latest": "Novissima",
+ "up_older": "Institutores versionum priorum in GitHub Releases sunt."
 }

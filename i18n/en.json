@@ -136,6 +136,8 @@
  "a4": "It can’t be installed on iPhone or iPad. We’re working on opening your Mac’s dashboard from your iPhone on the same Wi-Fi.",
  "q5": "Why do I need “Open Anyway” the first time?",
  "a5": "It’s an independent app not yet notarized by Apple, so macOS asks you to confirm once. The app never sends your files anywhere.",
+ "q6": "How do I get updates?",
+ "a6": "When a new version is out, the menu bar and the dashboard let you know. Once a day the app checks only the version number on this site and never sends your file information. Click the notice to open the download page.",
  "gh": "GitHub",
  "made": "Made in Korea for Mac people.",
  "doc_title": "Tony FileBox — Every file on your Mac, at a glance.",
@@ -198,6 +200,7 @@
  "g_m2": "Under <b>Auto Scan</b>, choose Daily, Weekly, or Off (Weekly by default). If more than 5 GB of items to clean up builds up after an automatic scan, you'll get a notification.",
  "g_m3": "Turn on <b>Open at login</b> and the menu bar app and engine start quietly in the background, with no window, whenever you start your Mac.",
  "g_m4": "With <b>Risk Alerts</b> on, you get a notification when a red state such as memory or CPU overload, overheating or low disk space persists, and another when it clears. Click the notification to open the System screen.",
+ "g_m5": "When a new version is out, the menu bar and the dashboard let you know. It checks only the version number once a day and never sends your file information. Turn it off with <b>Check for Updates</b> in the menu bar.",
  "g_l1": "Click the globe button at the top and choose a language. The screens, suggestion cards, notifications, and menu bar all switch to it.",
  "g_r1": "Click the box icon in the menu bar → if <b>Open at login</b> is on, turn it off, then click <b>[Remove from Menu Bar]</b>.",
  "g_r2": "Move Tony FileBox from your <b>Applications</b> folder to the Trash.",
@@ -211,5 +214,11 @@
  "g_toc": "Contents",
  "g_i0": "Click <b>[Free download for Mac]</b> above and the installer <b>TonyFileBox-Setup.pkg</b> is saved to your Downloads folder.",
  "g_f1": "Open the Apple menu at the top left → <b>System Settings…</b> → <b>Privacy & Security</b> in the list on the left → <b>Full Disk Access</b> on the right. The <b>Open System Settings</b> button in the in-app guide takes you there directly, too.",
- "g_l2": "You can read this guide in your language, too — pick one below."
+ "g_l2": "You can read this guide in your language, too — pick one below.",
+ "up_link": "What's new",
+ "up_doc": "Tony FileBox — What's new",
+ "up_h": "What's new",
+ "up_p": "When a new version is out, the app lets you know in the menu bar and the dashboard. See what changed in each version here.",
+ "up_latest": "Latest",
+ "up_older": "Installers for earlier versions are on GitHub Releases."
 }

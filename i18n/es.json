@@ -139,6 +139,8 @@
  "a4": "No se puede instalar en el iPhone ni en el iPad. Estamos trabajando para que puedas abrir el panel de tu Mac desde el iPhone en la misma red Wi-Fi.",
  "q5": "¿Por qué hace falta «Abrir igualmente» la primera vez?",
  "a5": "Es una app independiente que Apple aún no ha notarizado, así que macOS te pide que lo confirmes una vez. La app nunca envía tus archivos a ningún sitio.",
+ "q6": "¿Cómo recibo las actualizaciones?",
+ "a6": "Cuando sale una nueva versión, te avisan la barra de menús y el panel. Una vez al día la app solo comprueba el número de versión en este sitio y nunca envía información de tus archivos. Haz clic en el aviso para abrir la página de descarga.",
  "gh": "GitHub",
  "made": "Hecho en Corea para quienes usan Mac.",
  "vb_play": "Reproducir",
@@ -203,6 +205,7 @@
  "g_m2": "En <b>Escaneo automático</b>, elige Cada día, Cada semana o Desactivado (por omisión, Cada semana). Si tras un escaneo automático se acumulan más de 5 GB por limpiar, recibirás una notificación.",
  "g_m3": "Activa <b>Abrir al iniciar sesión</b> y la app de la barra de menús y el motor se iniciarán discretamente en segundo plano, sin ventana, cada vez que enciendas el Mac.",
  "g_m4": "Con las <b>Alertas de riesgo</b> activadas, recibirás una notificación cuando un estado en rojo (sobrecarga de memoria o CPU, sobrecalentamiento o poco espacio en disco) se mantenga, y otra cuando se resuelva. Haz clic en la notificación para abrir la pantalla Sistema.",
+ "g_m5": "Cuando sale una nueva versión, te avisan la barra de menús y el panel. Solo comprueba el número de versión una vez al día y nunca envía información de tus archivos. Desactívalo con <b>Buscar actualizaciones</b> en la barra de menús.",
  "g_l1": "Haz clic en el botón del globo terráqueo de arriba y elige un idioma. Las pantallas, las tarjetas de sugerencias, las notificaciones y la barra de menús cambian a ese idioma.",
  "g_l2": "También puedes leer esta guía en tu idioma — elige uno abajo.",
  "g_r1": "Haz clic en el icono de la caja en la barra de menús → si <b>Abrir al iniciar sesión</b> está activado, desactívalo y haz clic en <b>[Quitar de la barra de menús]</b>.",
@@ -211,5 +214,11 @@
  "g_h1": "Si la ventana no se abre o la pantalla está en blanco, prueba a abrir Tony FileBox de nuevo desde el Dock.",
  "g_h2": "Si los números no cuadran, haz clic en el botón ⟳ de abajo a la izquierda para escanear de nuevo.",
  "g_h3": "Las previsualizaciones de vídeo y la búsqueda de vídeos similares requieren ffmpeg. Si usas Homebrew, ejecuta <b>brew install ffmpeg</b> en Terminal.",
- "g_h4": "¿Sigue sin funcionar? Envía los dos archivos de registro de abajo."
+ "g_h4": "¿Sigue sin funcionar? Envía los dos archivos de registro de abajo.",
+ "up_link": "Novedades",
+ "up_doc": "Tony FileBox — Novedades",
+ "up_h": "Novedades",
+ "up_p": "Cuando sale una nueva versión, la app te avisa en la barra de menús y el panel. Aquí puedes ver qué cambió en cada versión.",
+ "up_latest": "Última",
+ "up_older": "Los instaladores de versiones anteriores están en GitHub Releases."
 }

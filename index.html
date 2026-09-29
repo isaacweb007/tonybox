@@ -19,7 +19,7 @@
 <!-- 제목: Nunito(라틴) + Jua(한글, 둥글고 굵은 클레이 느낌) / 본문: Pretendard -->
 <link href="https://fonts.googleapis.com/css2?family=Jua&family=Nunito:wght@700;800;900&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=5">
+<link rel="stylesheet" href="style.css?v=6">
 </head>
 <body>
 <script>document.body.classList.add('js');</script>
@@ -67,7 +67,7 @@
           <button class="btn primary only-ios copylink" type="button"><span data-t="cta_ios">Mac에서 받도록 링크 복사</span></button>
           <a class="btn soft" href="#find" data-t="cta2">어떻게 찾아 주나요?</a>
         </div>
-        <div class="meta fade" style="--d:1.5s"><span data-t="m1">Apple Silicon Mac</span><span data-t="m2">macOS 13 이상</span><span data-t="m3">무료 · 광고 없음</span><span data-t="m4">10개 언어</span></div>
+        <div class="meta fade" style="--d:1.5s"><span data-t="m1">Apple Silicon Mac</span><span data-t="m2">macOS 13 이상</span><span data-t="m3">무료 · 광고 없음</span><span data-t="m4">10개 언어</span><a class="ver" href="updates.html" data-ver hidden></a></div>
       </div>
     </div>
   </section>
@@ -294,19 +294,20 @@
         <details class="clay reveal"><summary data-t="q3">인텔 맥에서도 되나요?</summary><p data-t="a3">지금은 Apple Silicon(M1 이상) 맥용입니다. 인텔 맥용은 준비 중이에요.</p></details>
         <details class="clay reveal"><summary data-t="q4">아이폰이나 아이패드에서도 쓸 수 있나요?</summary><p data-t="a4">아이폰·아이패드에는 설치할 수 없어요. 대신 같은 와이파이에서 아이폰으로 맥 대시보드를 여는 기능을 준비하고 있어요.</p></details>
         <details class="clay reveal"><summary data-t="q5">왜 처음에 ‘그래도 열기’가 필요한가요?</summary><p data-t="a5">애플 공증을 받기 전인 개인 개발 앱이라 macOS가 처음 한 번 확인을 요청해요. 앱은 파일을 밖으로 보내지 않습니다.</p></details>
+        <details class="clay reveal"><summary data-t="q6">업데이트는 어떻게 받나요?</summary><p data-t="a6">새 버전이 나오면 메뉴바와 대시보드에서 알려 드려요. 앱은 하루 한 번 이 사이트에서 버전 번호만 확인하고 내 파일 정보는 보내지 않아요. 알림을 누르면 받는 페이지가 열려요.</p></details>
       </div>
     </div>
   </section>
 </main>
 
 <footer>
-  <div class="wrap"><span>© 2026 Tony FileBox</span><a href="https://github.com/isaacweb007/tonybox" data-t="gh">GitHub</a><a href="#privacy" data-t="nav_privacy">개인정보</a><span data-t="made">맥 사용자를 위해 한국에서 만들었어요.</span></div>
+  <div class="wrap"><span>© 2026 Tony FileBox</span><a href="https://github.com/isaacweb007/tonybox" data-t="gh">GitHub</a><a href="#privacy" data-t="nav_privacy">개인정보</a><a href="updates.html" data-t="up_link">업데이트 소식</a><span data-t="made">맥 사용자를 위해 한국에서 만들었어요.</span></div>
 </footer>
 <!-- 스크립트에서만 쓰는 문장(번역 대상) -->
 <div hidden><span data-t="vb_play">재생</span><span data-t="vb_pause">멈춤</span><span data-t="vb_aria_play">영상 재생</span><span data-t="vb_aria_pause">영상 멈추기</span><span data-t="cp_done">복사했어요 — 맥에서 여세요</span></div>
 
 <script type="module">
-import { t, lang, reduce, start } from './site.js?v=4';
+import { t, lang, reduce, start } from './site.js?v=7';
 
 // 찾기 데모(가짜 데이터): 입력 → 알아들은 칩 → 결과. 행 = [아이콘, 이름, 위치, 날짜]
 const DEMO = {

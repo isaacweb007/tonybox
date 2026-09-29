@@ -1,0 +1,207 @@
+{
+ "latest": "1.4",
+ "page": "https://isaacweb007.github.io/tonybox/updates.html",
+ "download": "https://github.com/isaacweb007/tonybox/releases/latest/download/TonyFileBox-Setup.pkg",
+ "releases": [
+  {
+   "version": "1.4",
+   "date": "2026-09-29",
+   "notes": {
+    "ko": [
+     "새 버전 알림: 새 버전이 나오면 메뉴바와 대시보드에서 알려 줘요.",
+     "하루 한 번 버전 번호만 확인하고, 내 파일 정보는 보내지 않아요. 메뉴바에서 끌 수 있어요."
+    ],
+    "en": [
+     "Update notices: when a new version is out, the menu bar and the dashboard let you know.",
+     "It checks only the version number once a day and never sends your file information. You can turn it off in the menu bar."
+    ],
+    "ja": [
+     "アップデート通知：新しいバージョンが出ると、メニューバーとダッシュボードでお知らせします。",
+     "1日1回バージョン番号だけを確認し、ファイルの情報は送信しません。メニューバーでオフにできます。"
+    ],
+    "zh": [
+     "更新提醒：有新版本时，菜单栏和仪表盘会通知你。",
+     "每天只检查一次版本号，绝不发送你的文件信息。可在菜单栏中关闭。"
+    ],
+    "vi": [
+     "Thông báo cập nhật: khi có phiên bản mới, thanh menu và bảng điều khiển sẽ báo cho bạn.",
+     "Chỉ kiểm tra số phiên bản mỗi ngày một lần và không gửi thông tin tệp của bạn. Có thể tắt trên thanh menu."
+    ],
+    "es": [
+     "Avisos de actualización: cuando sale una nueva versión, te lo indican la barra de menús y el panel.",
+     "Solo comprueba el número de versión una vez al día y nunca envía información de tus archivos. Puedes desactivarlo en la barra de menús."
+    ],
+    "la": [
+     "Monita renovationum: cum nova versio prodit, vectis indicis et tabula monent.",
+     "Semel in die solum numerum versionis inspicit neque notitias fasciculorum tuorum mittit. In vecte indicis exstingui potest."
+    ],
+    "ar": [
+     "إشعارات التحديث: عند صدور إصدار جديد، يُعلمك شريط القائمة ولوحة المعلومات.",
+     "يتحقق من رقم الإصدار فقط مرة واحدة يوميًا ولا يرسل أبدًا معلومات ملفاتك. يمكنك إيقافه من شريط القائمة."
+    ],
+    "hi": [
+     "अपडेट सूचना: नया वर्शन आने पर मेनू बार और डैशबोर्ड आपको बताते हैं।",
+     "दिन में एक बार सिर्फ़ वर्शन नंबर जाँचता है और आपकी फ़ाइलों की कोई जानकारी नहीं भेजता। मेनू बार से इसे बंद कर सकते हैं।"
+    ],
+    "id": [
+     "Pemberitahuan pembaruan: saat versi baru keluar, bar menu dan dasbor akan memberi tahu Anda.",
+     "Hanya memeriksa nomor versi sekali sehari dan tidak pernah mengirim informasi file Anda. Bisa dimatikan dari bar menu."
+    ]
+   }
+  },
+  {
+   "version": "1.3",
+   "date": "2026-09-29",
+   "notes": {
+    "ko": [
+     "위험 알림: 메모리·CPU 과부하, 발열, 디스크 부족이 빨간색으로 이어지면 메뉴바로 알려 줘요.",
+     "계속되면 몇 분째인지, 풀리면 정상으로 돌아왔다고 다시 알려 줘요."
+    ],
+    "en": [
+     "Risk Alerts: get a menu bar notification when memory or CPU overload, overheating or low disk space stays red.",
+     "If it keeps going you'll see how long it has been, and you'll hear again when it's back to normal."
+    ],
+    "ja": [
+     "警告通知：メモリやCPUの過負荷、高温、ディスク容量不足が赤色のまま続くと、メニューバーでお知らせします。",
+     "続いている間は何分経ったかを、正常に戻ったらそのこともお知らせします。"
+    ],
+    "zh": [
+     "风险提醒：内存或 CPU 过载、过热、磁盘空间不足持续呈红色时，通过菜单栏通知你。",
+     "持续期间会告诉你已经多少分钟，恢复正常时也会再次提醒。"
+    ],
+    "vi": [
+     "Cảnh báo rủi ro: nhận thông báo trên thanh menu khi quá tải bộ nhớ hoặc CPU, quá nhiệt hay thiếu dung lượng ổ đĩa cứ ở màu đỏ.",
+     "Nếu kéo dài, bạn sẽ biết đã bao nhiêu phút và được báo lại khi trở lại bình thường."
+    ],
+    "es": [
+     "Alertas de riesgo: recibe una notificación en la barra de menús cuando la sobrecarga de memoria o CPU, el sobrecalentamiento o el poco espacio en disco siguen en rojo.",
+     "Si continúa, verás cuánto tiempo lleva, y te avisaremos cuando vuelva a la normalidad."
+    ],
+    "la": [
+     "Monita periculi: nuntium in vecte indicis accipies cum onus nimium memoriae vel CPU, nimius calor aut spatium disci exiguum rubrum manet.",
+     "Si perseverat, scies quot iam minutas, et iterum monebimus cum ad statum solitum redit."
+    ],
+    "ar": [
+     "تنبيهات المخاطر: يصلك إشعار في شريط القائمة عندما يستمر الحمل الزائد على الذاكرة أو المعالج أو ارتفاع الحرارة أو نقص مساحة القرص باللون الأحمر.",
+     "إذا استمر ذلك ستعرف منذ كم دقيقة، وسننبّهك مجددًا عند العودة إلى الوضع الطبيعي."
+    ],
+    "hi": [
+     "जोखिम अलर्ट: मेमोरी या CPU ओवरलोड, ज़्यादा गर्मी या डिस्क में कम जगह लाल बनी रहे, तो मेनू बार में सूचना मिलती है।",
+     "लगातार बना रहे तो कितने मिनट हो गए यह बताया जाता है, और सामान्य होने पर फिर से सूचना मिलती है।"
+    ],
+    "id": [
+     "Peringatan Risiko: dapatkan pemberitahuan di bar menu saat kelebihan beban memori atau CPU, panas berlebih, atau ruang disk yang menipis tetap merah.",
+     "Jika terus berlanjut, Anda akan tahu sudah berapa menit, dan diberi tahu lagi saat kembali normal."
+    ]
+   }
+  },
+  {
+   "version": "1.2",
+   "date": "2026-09-29",
+   "notes": {
+    "ko": [
+     "어디서든 찾기: 이름 일부·날짜·종류·떠오르는 말을 섞어 써도 파일을 찾아 줘요."
+    ],
+    "en": [
+     "Find anywhere: mix part of a name, a date, a kind of file or a related word and it finds the file."
+    ],
+    "ja": [
+     "どこでも検索：名前の一部・日付・種類・思い浮かぶ言葉を組み合わせても、ファイルを見つけます。"
+    ],
+    "zh": [
+     "随处搜索：混合输入文件名片段、日期、类型或联想词，也能找到文件。"
+    ],
+    "vi": [
+     "Tìm ở mọi nơi: kết hợp một phần tên, ngày, loại tệp hay từ liên quan, ứng dụng vẫn tìm ra tệp."
+    ],
+    "es": [
+     "Busca en cualquier parte: combina parte del nombre, una fecha, un tipo de archivo o una palabra relacionada y encuentra el archivo."
+    ],
+    "la": [
+     "Ubique quaere: partem nominis, diem, genus fasciculi aut verbum cognatum miscens, fasciculum invenit."
+    ],
+    "ar": [
+     "البحث في أي مكان: امزج جزءًا من الاسم أو تاريخًا أو نوع ملف أو كلمة مرتبطة، وسيجد الملف."
+    ],
+    "hi": [
+     "कहीं भी खोजें: नाम का हिस्सा, तारीख, फ़ाइल का प्रकार या जुड़ा हुआ शब्द मिलाकर लिखें, फ़ाइल मिल जाएगी।"
+    ],
+    "id": [
+     "Cari di mana saja: campur sebagian nama, tanggal, jenis file, atau kata terkait, dan file tetap ditemukan."
+    ]
+   }
+  },
+  {
+   "version": "1.1",
+   "date": "2026-09-29",
+   "notes": {
+    "ko": [
+     "10개 언어를 지원하고, 앱 안에 설치·사용 가이드가 들어갔어요."
+    ],
+    "en": [
+     "10 languages, plus an install & usage guide built into the app."
+    ],
+    "ja": [
+     "10言語に対応し、アプリ内にインストール・使い方ガイドを追加しました。"
+    ],
+    "zh": [
+     "支持 10 种语言，并在应用内加入了安装与使用指南。"
+    ],
+    "vi": [
+     "Hỗ trợ 10 ngôn ngữ và có hướng dẫn cài đặt, sử dụng ngay trong ứng dụng."
+    ],
+    "es": [
+     "10 idiomas y una guía de instalación y uso dentro de la app."
+    ],
+    "la": [
+     "Decem linguae, et dux institutionis ususque intra applicationem."
+    ],
+    "ar": [
+     "دعم 10 لغات، ودليل تثبيت واستخدام داخل التطبيق."
+    ],
+    "hi": [
+     "10 भाषाएँ, और ऐप के अंदर इंस्टॉल व इस्तेमाल गाइड।"
+    ],
+    "id": [
+     "10 bahasa, plus panduan instalasi dan penggunaan di dalam aplikasi."
+    ]
+   }
+  },
+  {
+   "version": "1.0",
+   "date": "2026-09-29",
+   "notes": {
+    "ko": [
+     "첫 배포: 개요, 추천 정리, 탐색, 중복·비슷한 사진, 자동 스캔과 메뉴바."
+    ],
+    "en": [
+     "First release: Overview, Suggestions, Browse, duplicates and similar photos, Auto Scan and the menu bar."
+    ],
+    "ja": [
+     "最初のリリース：概要、おすすめの整理、ブラウズ、重複・類似写真、自動スキャン、メニューバー。"
+    ],
+    "zh": [
+     "首个版本：概览、清理建议、浏览、重复与相似照片、自动扫描和菜单栏。"
+    ],
+    "vi": [
+     "Phát hành đầu tiên: Tổng quan, gợi ý dọn dẹp, duyệt tệp, tệp trùng và ảnh giống nhau, tự động quét và thanh menu."
+    ],
+    "es": [
+     "Primera versión: Resumen, sugerencias, explorar, duplicados y fotos parecidas, escaneo automático y barra de menús."
+    ],
+    "la": [
+     "Prima editio: Summarium, consilia, perlustratio, duplicata et imagines similes, perlustratio automatica et vectis indicis."
+    ],
+    "ar": [
+     "الإصدار الأول: نظرة عامة، واقتراحات التنظيف، والتصفح، والملفات المكررة والصور المتشابهة، والفحص التلقائي، وشريط القائمة."
+    ],
+    "hi": [
+     "पहला रिलीज़: ओवरव्यू, सफ़ाई सुझाव, ब्राउज़, डुप्लिकेट और मिलती-जुलती फ़ोटो, ऑटो स्कैन और मेनू बार।"
+    ],
+    "id": [
+     "Rilis pertama: Ringkasan, saran pembersihan, jelajah, duplikat dan foto mirip, pindai otomatis, dan bar menu."
+    ]
+   }
+  }
+ ]
+}

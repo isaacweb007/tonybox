@@ -4,7 +4,7 @@ export const LANGS = [
   ['ko', '한국어'], ['en', 'English'], ['ja', '日本語'], ['zh', '简体中文'], ['vi', 'Tiếng Việt'],
   ['es', 'Español'], ['la', 'Latina'], ['ar', 'العربية'], ['hi', 'हिन्दी'], ['id', 'Bahasa Indonesia'],
 ];
-const V = 6; // 번역 파일을 고치면 올린다(GitHub Pages 캐시)
+const V = 7; // 번역 파일을 고치면 올린다(GitHub Pages 캐시)
 // 공개 저장소 isaacweb007/tonybox 의 Releases '항상 최신' 설치 파일(이름은 버전 없이 TonyFileBox-Setup.pkg)
 export const DOWNLOAD_URL = 'https://github.com/isaacweb007/tonybox/releases/latest/download/TonyFileBox-Setup.pkg';
 export const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -73,5 +73,12 @@ const io = new IntersectionObserver((es) => es.forEach((e) => {
   io.unobserve(e.target);
 }), { threshold: .15 });
 document.querySelectorAll('.reveal').forEach((el) => io.observe(el));
+
+// 버전: releases.json 하나가 기준 — 랜딩의 버전 표시·업데이트 소식 페이지·앱의 새 버전 확인이 모두 이 파일을 본다
+export const releases = fetch('releases.json', { cache: 'no-cache' }).then((r) => r.json()).catch(() => null);
+releases.then((r) => {
+  const cur = r?.releases.find((x) => x.version === r.latest);
+  if (cur) document.querySelectorAll('[data-ver]').forEach((el) => { el.textContent = `v${cur.version} · ${cur.date}`; el.hidden = false; });
+});
 
 export const start = () => setLang(pick());

@@ -139,6 +139,8 @@
  "a4": "Ứng dụng không cài được trên iPhone hoặc iPad. Chúng tôi đang phát triển tính năng mở bảng điều khiển của máy Mac từ iPhone khi dùng chung mạng Wi-Fi.",
  "q5": "Vì sao lần đầu cần bấm “Vẫn mở”?",
  "a5": "Đây là ứng dụng độc lập chưa được Apple công chứng, nên macOS yêu cầu bạn xác nhận một lần. Ứng dụng không bao giờ gửi tệp của bạn ra ngoài.",
+ "q6": "Làm sao để nhận bản cập nhật?",
+ "a6": "Khi có phiên bản mới, thanh menu và bảng điều khiển sẽ báo cho bạn. Mỗi ngày một lần, ứng dụng chỉ kiểm tra số phiên bản trên trang này và không gửi thông tin tệp của bạn. Bấm vào thông báo để mở trang tải về.",
  "gh": "GitHub",
  "made": "Làm tại Hàn Quốc, dành cho người dùng Mac.",
  "vb_play": "Phát",
@@ -203,6 +205,7 @@
  "g_m2": "Trong <b>Tự động quét</b>, chọn Hằng ngày, Hằng tuần hoặc Tắt (mặc định là Hằng tuần). Nếu sau một lần quét tự động có hơn 5 GB cần dọn, bạn sẽ nhận được thông báo.",
  "g_m3": "Bật <b>Mở khi đăng nhập</b> để ứng dụng trên thanh menu và dịch vụ nền tự khởi động lặng lẽ ở chế độ nền, không mở cửa sổ, mỗi khi bạn bật máy Mac.",
  "g_m4": "Khi bật <b>Cảnh báo rủi ro</b>, bạn sẽ nhận thông báo khi trạng thái đỏ như quá tải bộ nhớ hoặc CPU, quá nhiệt hay thiếu dung lượng ổ đĩa kéo dài, và được báo lại khi đã ổn. Bấm vào thông báo để mở màn hình Hệ thống.",
+ "g_m5": "Khi có phiên bản mới, thanh menu và bảng điều khiển sẽ báo cho bạn. Ứng dụng chỉ kiểm tra số phiên bản mỗi ngày một lần và không bao giờ gửi thông tin tệp của bạn. Tắt bằng <b>Kiểm tra cập nhật</b> trên thanh menu.",
  "g_l1": "Bấm nút quả địa cầu ở phía trên và chọn ngôn ngữ. Các màn hình, thẻ gợi ý, thông báo và thanh menu đều sẽ chuyển sang ngôn ngữ đó.",
  "g_l2": "Bạn cũng có thể đọc hướng dẫn này bằng ngôn ngữ của mình — hãy chọn bên dưới.",
  "g_r1": "Bấm biểu tượng hộp trên thanh menu → nếu <b>Mở khi đăng nhập</b> đang bật thì tắt đi, rồi bấm <b>[Gỡ khỏi thanh menu]</b>.",
@@ -211,5 +214,11 @@
  "g_h1": "Nếu cửa sổ không mở hoặc màn hình trống, hãy thử mở lại Tony FileBox từ Dock.",
  "g_h2": "Nếu số liệu có vẻ không đúng, hãy bấm nút ⟳ ở góc dưới bên trái để quét lại.",
  "g_h3": "Xem trước video và tìm video tương tự cần có ffmpeg. Nếu bạn dùng Homebrew, hãy chạy <b>brew install ffmpeg</b> trong Terminal.",
- "g_h4": "Vẫn chưa được? Hãy gửi hai tệp nhật ký bên dưới."
+ "g_h4": "Vẫn chưa được? Hãy gửi hai tệp nhật ký bên dưới.",
+ "up_link": "Có gì mới",
+ "up_doc": "Tony FileBox — Có gì mới",
+ "up_h": "Có gì mới",
+ "up_p": "Khi có phiên bản mới, ứng dụng sẽ báo trên thanh menu và bảng điều khiển. Xem các thay đổi của từng phiên bản tại đây.",
+ "up_latest": "Mới nhất",
+ "up_older": "Bộ cài của các phiên bản trước có trên GitHub Releases."
 }

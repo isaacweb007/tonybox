@@ -15,7 +15,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Jua&family=Nunito:wght@700;800;900&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=5">
+<link rel="stylesheet" href="style.css?v=6">
 </head>
 <body class="guide">
 <script>document.body.classList.add('js');</script>
@@ -143,6 +143,7 @@
           <li data-t="g_m2"><b>자동 스캔</b>에서 매일·매주·끄기를 고를 수 있어요(기본 매주). 자동 스캔 뒤 정리할 게 5GB 넘게 쌓이면 알림을 보내요.</li>
           <li data-t="g_m3"><b>로그인할 때 자동 실행</b>을 켜 두면 맥을 켤 때 메뉴바와 엔진이 창 없이 조용히 시작돼요.</li>
           <li data-t="g_m4"><b>위험 알림</b>을 켜 두면 메모리·CPU 과부하, 발열, 디스크 부족 같은 빨간 상태가 이어질 때 알림을 보내고, 풀리면 다시 알려 줘요. 알림을 누르면 시스템 화면이 열려요.</li>
+          <li data-t="g_m5">새 버전이 나오면 메뉴바와 대시보드에서 알려 줘요. 하루 한 번 버전 번호만 확인하고 내 파일 정보는 보내지 않아요. 메뉴바의 <b>업데이트 확인</b>으로 끌 수 있어요.</li>
         </ul>
       </section>
 
@@ -188,12 +189,12 @@
 </main>
 
 <footer>
-  <div class="wrap"><span>© 2026 Tony FileBox</span><a href="https://github.com/isaacweb007/tonybox" data-t="gh">GitHub</a><a href="index.html#privacy" data-t="nav_privacy">개인정보</a><span data-t="made">맥 사용자를 위해 한국에서 만들었어요.</span></div>
+  <div class="wrap"><span>© 2026 Tony FileBox</span><a href="https://github.com/isaacweb007/tonybox" data-t="gh">GitHub</a><a href="index.html#privacy" data-t="nav_privacy">개인정보</a><a href="updates.html" data-t="up_link">업데이트 소식</a><span data-t="made">맥 사용자를 위해 한국에서 만들었어요.</span></div>
 </footer>
 <div hidden><span data-t="cp_done">복사했어요 — 맥에서 여세요</span></div>
 
 <script type="module">
-import { start } from './site.js?v=4';
+import { start } from './site.js?v=7';
 // 목차: 지금 읽는 부분을 표시
 const links = [...document.querySelectorAll('.g-toc a')];
 const spy = new IntersectionObserver((es) => es.forEach((e) => {
