@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title data-t="g_doc_title">토니 파일박스 이용 가이드 — 설치부터 정리까지</title>
+<meta name="description" content="토니 파일박스 설치 방법, 처음 실행, 전체 디스크 접근 권한, 화면별 사용법, 정리와 되돌리기, 메뉴바, 언어, 지우는 법, 문제 해결.">
+<meta property="og:title" content="토니 파일박스 이용 가이드">
+<meta property="og:image" content="assets/og.jpg">
+<meta name="theme-color" content="#F4E7D6">
+<!-- 비공개 기간: 검색엔진에 올리지 않는다. 정식 공개할 때 이 줄을 지운다 -->
+<meta name="robots" content="noindex, nofollow, noarchive">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jua&family=Nunito:wght@700;800;900&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=3">
+</head>
+<body class="guide">
+<script>document.body.classList.add('js');</script>
+
+<header class="nav solid" id="nav">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img src="assets/logo.png" alt=""><span data-t="brand">토니 파일박스</span></a>
+    <nav aria-label="페이지 메뉴">
+      <a href="index.html#overview" data-t="nav_overview">한눈에</a>
+      <a href="index.html#find" data-t="nav_find">찾기</a>
+      <a href="index.html#features" data-t="nav_features">기능</a>
+      <a href="index.html#privacy" data-t="nav_privacy">개인정보</a>
+      <a href="index.html#install" data-t="nav_install">설치</a>
+      <a href="guide.html" aria-current="page" data-t="nav_guide">이용 가이드</a>
+    </nav>
+    <div class="end">
+      <label class="lang"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9S9.5 5.7 12 3z"/></svg><select class="langpick" aria-label="Language / 언어"></select></label>
+      <a class="btn primary sm only-mac download" href="#" data-t="nav_download">무료 다운로드</a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+  <!-- 머리: 레퍼런스 대시보드의 피치 배너 -->
+  <section class="g-head">
+    <div class="wrap">
+      <div class="banner g-banner clay">
+        <img class="tony" src="assets/v2/tony-hug.webp" alt="">
+        <div>
+          <div class="eyebrow"><img src="assets/v2/f-sparkles.webp" alt=""><span data-t="nav_guide">이용 가이드</span></div>
+          <h1 data-t="g_title">토니 파일박스 설치·사용 가이드</h1>
+          <p data-t="g_intro">맥의 파일·용량·중복·캐시를 한눈에 보고, 추천대로 안전하게 정리하는 대시보드예요. 모든 정리는 휴지통 이동이나 폴더 이동이라 되돌릴 수 있고, 파일 정보는 이 맥 밖으로 나가지 않아요.</p>
+          <div class="cta">
+            <a class="btn primary only-mac download" href="#"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.6c0-2.4 2-3.6 2.1-3.7-1.1-1.7-2.9-1.9-3.5-1.9-1.5-.2-2.9.9-3.7.9-.8 0-1.9-.9-3.2-.8-1.6 0-3.1 1-4 2.4-1.7 3-.4 7.4 1.2 9.8.8 1.2 1.8 2.5 3 2.4 1.2 0 1.7-.8 3.1-.8s1.9.8 3.2.8c1.3 0 2.1-1.2 2.9-2.4.9-1.3 1.3-2.7 1.3-2.8-.1 0-2.5-1-2.4-3.9zM14 5.5c.7-.8 1.1-1.9 1-3-1 0-2.1.7-2.8 1.5-.6.7-1.2 1.8-1 2.9 1.1.1 2.1-.6 2.8-1.4z"/></svg><span data-t="cta">Mac용 무료 다운로드</span></a>
+            <button class="btn primary only-ios copylink" type="button"><span data-t="cta_ios">Mac에서 받도록 링크 복사</span></button>
+            <a class="btn soft" href="#install" data-t="g_start_btn">설치부터 보기</a>
+          </div>
+          <p class="g-req" data-t="g_req">필요한 것: Apple Silicon 맥(M1 이상) · macOS 13 Ventura 이상 · Google Chrome 권장(없으면 Safari로 열려요)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap g-layout">
+    <!-- 목차: 레퍼런스의 세이지 사이드바 -->
+    <aside class="side clay g-toc">
+      <p class="hello" data-t="g_toc">목차</p>
+      <ul class="menu">
+        <li><a href="#install"><img src="assets/v2/f-download.webp" alt=""><span data-t="g_s_install">설치하기</span></a></li>
+        <li><a href="#start"><img src="assets/v2/f-app.webp" alt=""><span data-t="g_s_start">처음 실행하기</span></a></li>
+        <li><a href="#fda"><img src="assets/v2/tile-shield.webp" alt=""><span data-t="g_s_fda">전체 디스크 접근 권한</span></a></li>
+        <li><a href="#screens"><img src="assets/v2/nav-home.webp" alt=""><span data-t="g_s_screens">화면별 사용법</span></a></li>
+        <li><a href="#safe"><img src="assets/v2/obj-undo.webp" alt=""><span data-t="g_s_safe">정리와 되돌리기</span></a></li>
+        <li><a href="#menubar"><img src="assets/v2/tile-clock.webp" alt=""><span data-t="g_s_menubar">메뉴바와 자동 스캔</span></a></li>
+        <li><a href="#lang"><img src="assets/v2/obj-globe.webp" alt=""><span data-t="g_s_lang">언어 바꾸기</span></a></li>
+        <li><a href="#remove"><img src="assets/v2/tile-clean.webp" alt=""><span data-t="g_s_remove">지우기</span></a></li>
+        <li><a href="#help"><img src="assets/v2/nav-search.webp" alt=""><span data-t="g_s_help">문제가 생기면</span></a></li>
+      </ul>
+    </aside>
+
+    <div class="g-body">
+      <section id="install" class="g-sec clay reveal">
+        <h2><img src="assets/v2/f-download.webp" alt=""><span data-t="g_s_install">설치하기</span></h2>
+        <ol class="g-steps">
+          <li data-t="g_i0">위의 <b>[Mac용 무료 다운로드]</b> 버튼을 누르면 설치 파일 <b>TonyFileBox-Setup.pkg</b>가 다운로드 폴더에 저장돼요.</li>
+          <li data-t="g_i1">설치 파일 <b>「TonyFileBox-Setup.pkg」</b>를 두 번 누릅니다.</li>
+          <li data-t="g_i2">"열 수 없음" 또는 "확인할 수 없습니다" 창이 뜨면 <b>[완료]</b>를 누릅니다. Apple 개발자 인증을 받지 않은 개인용 앱이라 처음 한 번만 뜨는 창이에요.</li>
+          <li data-t="g_i3">화면 왼쪽 위 Apple 메뉴 → <b>시스템 설정…</b> → <b>개인정보 보호 및 보안</b> → 맨 아래 <b>보안</b> 부분의 설치 파일 옆 <b>[그래도 열기]</b>를 누릅니다.</li>
+          <li data-t="g_i4">확인창에서 <b>[그래도 열기]</b>를 누르고 맥 암호(또는 Touch ID)를 입력합니다.</li>
+          <li data-t="g_i5">설치 프로그램에서 <b>[계속] → [설치]</b>를 누르고 맥 암호를 입력한 뒤 <b>[닫기]</b>를 누릅니다. <b>응용 프로그램</b> 폴더에 토니 파일박스가 설치돼요.</li>
+        </ol>
+      </section>
+
+      <section id="start" class="g-sec clay reveal">
+        <h2><img src="assets/v2/f-app.webp" alt=""><span data-t="g_s_start">처음 실행하기</span></h2>
+        <ol class="g-steps">
+          <li data-t="g_st1">Finder → <b>응용 프로그램</b> → <b>토니 파일박스</b>를 두 번 누릅니다.</li>
+          <li data-t="g_st2">대시보드 창이 열리고 처음 한 번 디스크 전체를 스캔해요(1~2분). 위쪽 줄에 진행 상황이 보여요.</li>
+          <li data-t="g_st3">화면 맨 위 메뉴바에 박스 아이콘과 맥 건강 점수가 나타나요. 알림 허용을 물으면 <b>[허용]</b>을 누르세요.</li>
+          <li data-t="g_st4">Dock에 두려면 응용 프로그램 폴더의 토니 파일박스를 Dock으로 끌어다 놓으세요.</li>
+        </ol>
+      </section>
+
+      <section id="fda" class="g-sec clay reveal">
+        <h2><img src="assets/v2/tile-shield.webp" alt=""><span data-t="g_s_fda">전체 디스크 접근 권한</span></h2>
+        <p class="g-note" data-t="g_f0">메일·메시지·사진·일부 라이브러리 폴더는 macOS가 보호합니다. 권한을 켜야 그 폴더들의 용량까지 정확히 셀 수 있어요. 권한이 없어도 나머지 기능은 모두 동작합니다.</p>
+        <ol class="g-steps">
+          <li data-t="g_f1">화면 왼쪽 위 Apple 메뉴 → <b>시스템 설정…</b> → 왼쪽 목록 <b>개인정보 보호 및 보안</b> → 오른쪽 <b>전체 디스크 접근 권한</b>을 엽니다. 앱 안 가이드의 <b>시스템 설정 열기</b> 버튼으로도 바로 열 수 있어요.</li>
+          <li data-t="g_f2">목록에서 <b>토니 파일박스</b>를 찾아 스위치를 켭니다.</li>
+          <li data-t="g_f3">목록에 없으면 아래쪽 <b>＋</b> 버튼 → <b>응용 프로그램 › 토니 파일박스</b>을 선택하고 <b>열기</b>를 누른 뒤 스위치를 켭니다.</li>
+          <li data-t="g_f4">Mac 로그인 암호(또는 Touch ID)를 묻으면 입력합니다.</li>
+          <li data-t="g_f5">"종료 후 다시 열기"가 나오면 누르고, Dock에서 토니 파일박스를 다시 연 뒤 왼쪽 아래 ⟳ 로 다시 스캔합니다.</li>
+        </ol>
+      </section>
+
+      <section id="screens" class="g-sec clay reveal">
+        <h2><img src="assets/v2/nav-home.webp" alt=""><span data-t="g_s_screens">화면별 사용법</span></h2>
+        <div class="g-screens">
+          <article style="--bg:var(--sage)"><h3 data-t="g_n1">개요</h3><p data-t="g_d1">맥 건강 점수와 감점 이유, 총 사용량, 위치별 용량, 드라이브, 정리 후보를 한 화면에 보여 줘요. 맨 위 <b>[추천대로 정리하기]</b> 한 번으로 안전한 정리를 끝낼 수 있어요.</p></article>
+          <article style="--bg:var(--peach)"><h3 data-t="g_n2">추천</h3><p data-t="g_d2">정리 추천을 카드로 보여 줘요. 카드마다 이유·확보 용량·안전도가 있고, 켜고 끄거나 펼쳐서 항목을 하나씩 뺄 수 있어요. <b>안전</b> 카드는 처음부터 켜져 있고 <b>확인 필요</b> 카드는 직접 켜야 해요.</p></article>
+          <article style="--bg:var(--butter)"><h3 data-t="g_n3">검색</h3><p data-t="g_d3">개요 맨 위 큰 검색창이나 검색 화면에 <b>이름 일부·떠오르는 말·날짜</b>를 섞어 넣으면 찾아요(예: 어제 받은 pdf, 영수증 9월). 날짜와 종류는 조건으로 알아듣고, 영수증 → receipt처럼 연상되는 말도 함께 찾아요. <b>내용까지</b>로 바꾸면 문서 속 글자도 찾아요. 개요 화면에서 <b>/</b> 키를 누르면 바로 입력할 수 있어요.</p></article>
+          <article style="--bg:var(--blue)"><h3 data-t="g_n4">탐색</h3><p data-t="g_d4">데스크탑·문서·다운로드 같은 섹션을 폴더 아이콘으로 보고, 이름·수정일·크기·종류순으로 정렬해요. 두 번 누르면 폴더로 들어가거나 미리보기가 열려요. iCloud에만 있는 파일은 파란 구름으로 표시돼요.</p></article>
+          <article style="--bg:var(--lilac)"><h3 data-t="g_n5">저장공간</h3><p data-t="g_d5">어떤 폴더가 공간을 많이 쓰는지 폴더 지도로 보여 줘요. 칸을 누르면 그 폴더 안으로 들어가요.</p></article>
+          <article style="--bg:var(--mint)"><h3 data-t="g_n6">정리</h3><p data-t="g_d6">완전히 같은 중복 파일, 이름만 다른 버전 묶음, 비슷한 사진, 비슷한 영상을 찾아 남길 것을 추천해요. 유형별 칩으로 이미지·영상·문서만 따로 볼 수 있어요.</p></article>
+          <article style="--bg:var(--peach)"><h3 data-t="g_n7">활성/비활성</h3><p data-t="g_d7">파일을 마지막으로 쓴 때에 따라 활성·보통·비활성·보관 후보로 나눠요. 오래 안 쓴 큰 파일은 외장 드라이브에 보관할 수 있어요.</p></article>
+          <article style="--bg:var(--butter)"><h3 data-t="g_n8">시스템</h3><p data-t="g_d8">CPU·메모리·디스크·배터리·발열과 자원을 많이 쓰는 프로세스, 자동 실행 항목을 보여 줘요.</p></article>
+          <article style="--bg:var(--sage)"><h3 data-t="g_n9">작업 기록</h3><p data-t="g_d9">정리한 모든 작업이 남아요. 항목마다 <b>[되돌리기]</b>가 있고, 한 번에 정리한 묶음은 <b>[전부 되돌리기]</b>로 한 번에 돌려요.</p></article>
+        </div>
+      </section>
+
+      <section id="safe" class="g-sec clay reveal">
+        <h2><img src="assets/v2/obj-undo.webp" alt=""><span data-t="g_s_safe">정리와 되돌리기</span></h2>
+        <ul class="g-steps dots">
+          <li data-t="g_sf1">정리는 모두 <b>휴지통 이동</b>, <b>폴더 이동</b>, <b>외장 드라이브 보관</b> 중 하나예요. 영구 삭제는 하지 않아요.</li>
+          <li data-t="g_sf2">실제 공간은 휴지통을 비울 때 생겨요. 휴지통 비우기는 확인하신 뒤 Finder에서 직접 해 주세요.</li>
+          <li data-t="g_sf3">시스템 폴더, 앱 내부, 사진 보관함, Time Machine 백업 디스크는 보호돼서 건드리지 않아요.</li>
+          <li data-t="g_sf4">Time Machine 로컬 스냅샷이 있으면 지운 공간이 조금 늦게 돌아올 수 있어요. macOS가 스냅샷을 지우면 돌아와요.</li>
+        </ul>
+      </section>
+
+      <section id="menubar" class="g-sec clay reveal">
+        <h2><img src="assets/v2/tile-clock.webp" alt=""><span data-t="g_s_menubar">메뉴바와 자동 스캔</span></h2>
+        <ul class="g-steps dots">
+          <li data-t="g_m1">메뉴바의 박스 아이콘 옆 숫자는 맥 건강 점수예요. 누르면 정리 추천, 디스크 여유, 휴지통, 마지막 스캔을 볼 수 있어요.</li>
+          <li data-t="g_m2"><b>자동 스캔</b>에서 매일·매주·끄기를 고를 수 있어요(기본 매주). 자동 스캔 뒤 정리할 게 5GB 넘게 쌓이면 알림을 보내요.</li>
+          <li data-t="g_m3"><b>로그인할 때 자동 실행</b>을 켜 두면 맥을 켤 때 메뉴바와 엔진이 창 없이 조용히 시작돼요.</li>
+        </ul>
+      </section>
+
+      <section id="lang" class="g-sec clay reveal">
+        <h2><img src="assets/v2/obj-globe.webp" alt=""><span data-t="g_s_lang">언어 바꾸기</span></h2>
+        <p class="g-note" data-t="g_l1">위쪽의 지구본 버튼을 누르고 언어를 고르면 화면, 추천 카드, 알림, 메뉴바가 모두 그 언어로 바뀌어요.</p>
+        <p class="g-note" data-t="g_l2">이 안내 페이지도 아래에서 원하는 언어로 바로 볼 수 있어요.</p>
+        <div class="langs g-langs"><button type="button" data-lang="ko">한국어</button><button type="button" data-lang="en">English</button><button type="button" data-lang="ja">日本語</button><button type="button" data-lang="zh">简体中文</button><button type="button" data-lang="vi">Tiếng Việt</button><button type="button" data-lang="es">Español</button><button type="button" data-lang="la">Latina</button><button type="button" data-lang="ar">العربية</button><button type="button" data-lang="hi">हिन्दी</button><button type="button" data-lang="id">Bahasa Indonesia</button></div>
+      </section>
+
+      <section id="remove" class="g-sec clay reveal">
+        <h2><img src="assets/v2/tile-clean.webp" alt=""><span data-t="g_s_remove">지우기</span></h2>
+        <ol class="g-steps">
+          <li data-t="g_r1">메뉴바 박스 아이콘 → <b>로그인할 때 자동 실행</b>이 켜져 있으면 끄고 <b>[메뉴바에서 끄기]</b>를 누릅니다.</li>
+          <li data-t="g_r2"><b>응용 프로그램</b> 폴더의 토니 파일박스를 휴지통으로 옮깁니다.</li>
+          <li data-t="g_r3">데이터까지 지우려면 Finder → <b>이동 → 폴더로 이동…</b>에 <b>~/Library/Application Support/TonyFileBox</b>를 넣고 그 폴더를 휴지통으로 옮깁니다.</li>
+        </ol>
+      </section>
+
+      <section id="help" class="g-sec clay reveal">
+        <h2><img src="assets/v2/nav-search.webp" alt=""><span data-t="g_s_help">문제가 생기면</span></h2>
+        <ul class="g-steps dots">
+          <li data-t="g_h1">창이 안 열리거나 화면이 비어 있으면 Dock에서 토니 파일박스를 다시 열어 보세요.</li>
+          <li data-t="g_h2">숫자가 이상하면 왼쪽 아래 ⟳ 버튼으로 다시 스캔하세요.</li>
+          <li data-t="g_h3">영상 미리보기와 비슷한 영상 찾기는 ffmpeg가 있어야 켜져요. Homebrew를 쓰신다면 터미널에서 <b>brew install ffmpeg</b>를 실행하세요.</li>
+          <li data-t="g_h4">그래도 안 되면 아래 기록 파일 두 개를 보내 주세요.</li>
+        </ul>
+        <p class="g-code"><code>~/Library/Logs/TonyFileBox-launcher.log</code><code>~/Library/Application Support/TonyFileBox/server.log</code></p>
+      </section>
+    </div>
+  </div>
+
+  <!-- 다운로드 띠(랜딩과 같은 문장) -->
+  <section style="padding-top:10px">
+    <div class="wrap">
+      <div class="band clay reveal">
+        <img class="obj float" src="assets/v2/obj-star.webp" alt="">
+        <div><h2 data-t="band_h">지금, 무료로 시작하세요.</h2><p data-t="band_p">Apple Silicon Mac · macOS 13 이상 · 한 번 설치하면 매주 알아서 스캔</p></div>
+        <a class="btn green only-mac download" href="#"><span data-t="band_btn">무료 다운로드</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap"><span>© 2026 Tony FileBox</span><a href="https://github.com/isaacweb007/tonybox" data-t="gh">GitHub</a><a href="index.html#privacy" data-t="nav_privacy">개인정보</a><span data-t="made">맥 사용자를 위해 한국에서 만들었어요.</span></div>
+</footer>
+<div hidden><span data-t="cp_done">복사했어요 — 맥에서 여세요</span></div>
+
+<script type="module">
+import { start } from './site.js?v=4';
+// 목차: 지금 읽는 부분을 표시
+const links = [...document.querySelectorAll('.g-toc a')];
+const spy = new IntersectionObserver((es) => es.forEach((e) => {
+  if (e.isIntersecting) links.forEach((a) => a.classList.toggle('on', a.getAttribute('href') === `#${e.target.id}`));
+}), { rootMargin: '-40% 0px -55% 0px' });
+document.querySelectorAll('.g-sec').forEach((sec) => spy.observe(sec));
+start();
+</script>
+</body>
+</html>
