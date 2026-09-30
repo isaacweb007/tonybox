@@ -4,7 +4,7 @@ export const LANGS = [
   ['ko', '한국어'], ['en', 'English'], ['ja', '日本語'], ['zh', '简体中文'], ['vi', 'Tiếng Việt'],
   ['es', 'Español'], ['la', 'Latina'], ['ar', 'العربية'], ['hi', 'हिन्दी'], ['id', 'Bahasa Indonesia'],
 ];
-const V = 9; // 번역 파일을 고치면 올린다(GitHub Pages 캐시)
+const V = 10; // 번역 파일을 고치면 올린다(GitHub Pages 캐시)
 // 공개 저장소 isaacweb007/tonybox 의 Releases '항상 최신' 설치 파일(이름은 버전 없이 TonyFileBox-Setup.pkg)
 export const DOWNLOAD_URL = 'https://github.com/isaacweb007/tonybox/releases/latest/download/TonyFileBox-Setup.pkg';
 // Pro 구매: Polar 체크아웃 링크 — 결제를 붙일 때 채운다(docs/…/2026-09-29-monetization-design.md). 비어 있으면 '곧 판매 시작'
