@@ -15,7 +15,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Jua&family=Nunito:wght@700;800;900&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=6">
+<link rel="stylesheet" href="style.css?v=7">
 </head>
 <body class="updates">
 <script>document.body.classList.add('js');</script>
@@ -28,6 +28,7 @@
       <a href="index.html#find" data-t="nav_find">찾기</a>
       <a href="index.html#features" data-t="nav_features">기능</a>
       <a href="index.html#privacy" data-t="nav_privacy">개인정보</a>
+      <a href="index.html#pricing" data-t="nav_pricing">가격</a>
       <a href="index.html#install" data-t="nav_install">설치</a>
       <a href="guide.html" data-t="nav_guide">이용 가이드</a>
     </nav>
@@ -64,12 +65,12 @@
 </main>
 
 <footer>
-  <div class="wrap"><span>© 2026 Tony FileBox</span><a href="https://github.com/isaacweb007/tonybox" data-t="gh">GitHub</a><a href="index.html#privacy" data-t="nav_privacy">개인정보</a><a href="updates.html" data-t="up_link">업데이트 소식</a><span data-t="made">맥 사용자를 위해 한국에서 만들었어요.</span></div>
+  <div class="wrap"><span>© 2026 Tony FileBox</span><a href="https://github.com/isaacweb007/tonybox" data-t="gh">GitHub</a><a href="index.html#privacy" data-t="nav_privacy">개인정보</a><a href="updates.html" data-t="up_link">업데이트 소식</a><a href="legal.html" data-t="lg_link">약관·개인정보</a><span data-t="made">맥 사용자를 위해 한국에서 만들었어요.</span></div>
 </footer>
 <div hidden><span data-t="cp_done">복사했어요 — 맥에서 여세요</span><span data-t="up_latest">최신</span></div>
 
 <script type="module">
-import { start, releases, t } from './site.js?v=7';
+import { start, releases, t } from './site.js?v=8';
 // 버전별 바뀐 점: 고른 언어로(없으면 영어, 그다음 한국어)
 const draw = async () => {
   const r = await releases;

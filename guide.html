@@ -15,7 +15,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Jua&family=Nunito:wght@700;800;900&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=6">
+<link rel="stylesheet" href="style.css?v=7">
 </head>
 <body class="guide">
 <script>document.body.classList.add('js');</script>
@@ -28,6 +28,7 @@
       <a href="index.html#find" data-t="nav_find">찾기</a>
       <a href="index.html#features" data-t="nav_features">기능</a>
       <a href="index.html#privacy" data-t="nav_privacy">개인정보</a>
+      <a href="index.html#pricing" data-t="nav_pricing">가격</a>
       <a href="index.html#install" data-t="nav_install">설치</a>
       <a href="guide.html" aria-current="page" data-t="nav_guide">이용 가이드</a>
     </nav>
@@ -70,6 +71,7 @@
         <li><a href="#screens"><img src="assets/v2/nav-home.webp" alt=""><span data-t="g_s_screens">화면별 사용법</span></a></li>
         <li><a href="#safe"><img src="assets/v2/obj-undo.webp" alt=""><span data-t="g_s_safe">정리와 되돌리기</span></a></li>
         <li><a href="#menubar"><img src="assets/v2/tile-clock.webp" alt=""><span data-t="g_s_menubar">메뉴바와 자동 스캔</span></a></li>
+        <li><a href="#pro"><img src="assets/v2/obj-star.webp" alt=""><span data-t="g_s_pro">무료판과 Pro</span></a></li>
         <li><a href="#lang"><img src="assets/v2/obj-globe.webp" alt=""><span data-t="g_s_lang">언어 바꾸기</span></a></li>
         <li><a href="#remove"><img src="assets/v2/tile-clean.webp" alt=""><span data-t="g_s_remove">지우기</span></a></li>
         <li><a href="#help"><img src="assets/v2/nav-search.webp" alt=""><span data-t="g_s_help">문제가 생기면</span></a></li>
@@ -147,6 +149,16 @@
         </ul>
       </section>
 
+      <section id="pro" class="g-sec clay reveal">
+        <h2><img src="assets/v2/obj-star.webp" alt=""><span data-t="g_s_pro">무료판과 Pro</span></h2>
+        <ul class="g-steps dots">
+          <li data-t="g_p1">설치하면 14일 동안 모든 기능을 써 볼 수 있어요. 체험이 끝나면 무료판이 되고, 스캔·찾기·용량 지도·중복 찾기·하나씩 정리·되돌리기는 계속 무료예요.</li>
+          <li data-t="g_p2"><b>Pro 기능</b>: 추천대로 한 번에 정리, 비슷한 사진·영상 찾기, 외장 드라이브 보관, 자동 스캔, 위험 알림, 문서 속 글자까지 찾기.</li>
+          <li data-t="g_p3">Pro를 사면 메일로 라이선스 키가 와요. 대시보드 위쪽 버전 옆 배지나 왼쪽 별 버튼으로 <b>무료판·Pro</b> 화면을 열고, 키를 넣은 뒤 <b>등록</b>을 누르면 바로 켜져요.</li>
+          <li data-t="g_p4">키 하나로 맥 2대까지 쓸 수 있어요. 맥을 바꾸면 같은 화면에서 <b>이 맥에서 해제</b>를 누른 뒤 새 맥에 같은 키를 넣으세요.</li>
+        </ul>
+      </section>
+
       <section id="lang" class="g-sec clay reveal">
         <h2><img src="assets/v2/obj-globe.webp" alt=""><span data-t="g_s_lang">언어 바꾸기</span></h2>
         <p class="g-note" data-t="g_l1">위쪽의 지구본 버튼을 누르고 언어를 고르면 화면, 추천 카드, 알림, 메뉴바가 모두 그 언어로 바뀌어요.</p>
@@ -181,7 +193,7 @@
     <div class="wrap">
       <div class="band clay reveal">
         <img class="obj float" src="assets/v2/obj-star.webp" alt="">
-        <div><h2 data-t="band_h">지금, 무료로 시작하세요.</h2><p data-t="band_p">Apple Silicon Mac · macOS 13 이상 · 한 번 설치하면 매주 알아서 스캔</p></div>
+        <div><h2 data-t="band_h">지금, 무료로 시작하세요.</h2><p data-t="band_p">Apple Silicon Mac · macOS 13 이상 · 14일 동안 Pro 기능 전부 무료</p></div>
         <a class="btn green only-mac download" href="#"><span data-t="band_btn">무료 다운로드</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a>
       </div>
     </div>
@@ -189,12 +201,12 @@
 </main>
 
 <footer>
-  <div class="wrap"><span>© 2026 Tony FileBox</span><a href="https://github.com/isaacweb007/tonybox" data-t="gh">GitHub</a><a href="index.html#privacy" data-t="nav_privacy">개인정보</a><a href="updates.html" data-t="up_link">업데이트 소식</a><span data-t="made">맥 사용자를 위해 한국에서 만들었어요.</span></div>
+  <div class="wrap"><span>© 2026 Tony FileBox</span><a href="https://github.com/isaacweb007/tonybox" data-t="gh">GitHub</a><a href="index.html#privacy" data-t="nav_privacy">개인정보</a><a href="updates.html" data-t="up_link">업데이트 소식</a><a href="legal.html" data-t="lg_link">약관·개인정보</a><span data-t="made">맥 사용자를 위해 한국에서 만들었어요.</span></div>
 </footer>
 <div hidden><span data-t="cp_done">복사했어요 — 맥에서 여세요</span></div>
 
 <script type="module">
-import { start } from './site.js?v=7';
+import { start } from './site.js?v=8';
 // 목차: 지금 읽는 부분을 표시
 const links = [...document.querySelectorAll('.g-toc a')];
 const spy = new IntersectionObserver((es) => es.forEach((e) => {
